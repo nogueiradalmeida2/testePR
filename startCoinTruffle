@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd /Users/vanessaalm/coin-app/Back-Blockchain
+
+truffle develop
+
+migrate 

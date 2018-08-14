@@ -1,0 +1,15 @@
+{
+	"infra": {
+		"contrato_json": "./../Back-Blockchain/build/contracts/BNDESCoin.json",
+		"rede_blockchain_local": "4447",
+		"rede_blockchain_rinkeby": "4",
+		"rede_blockchain": "4",
+		"endereco_contrato_rinkeby": "0x199b108edd1ef34ad5a18e6807c20fd13d686b1d",
+		"endereco_websocket" : "ws://localhost:9545",
+		"endereco_websocket_rinkeby" : "wss://rinkeby.infura.io/ws",
+		"addr_bd": "mongodb://localhost:27017/bndescoin"
+	},
+	"negocio": {
+	}
+
+}

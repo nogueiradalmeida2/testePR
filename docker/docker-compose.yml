@@ -1,0 +1,31 @@
+version: '2'
+services:
+  backend:
+    image: registry.dsv.bndes.net/bndes/token-backend:v0.4
+    build:
+      context: ./backend/
+      args:
+  #      http_proxy: 'http://proxy01.bndes.net:8080'
+  #      https_proxy: 'http://proxy01.bndes.net:8080'
+  #      no_proxy: 'localhost,127.0.0.1,10.,192.,.bndes.net'
+        npm_auth: 'ZGVwbG95bWVudDpGa3ZpYXl2djROaURabjdHaEZEYw=='
+    environment:
+  #      http_proxy: 'http://proxy01.bndes.net:8080'
+  #      https_proxy: 'http://proxy01.bndes.net:8080'
+  #      no_proxy: 'localhost,127.0.0.1,10.,192.,.bndes.net'
+        npm_auth: 'ZGVwbG95bWVudDpGa3ZpYXl2djROaURabjdHaEZEYw=='
+    volumes:
+      - ${PWD}/volumes/backend/data/:/var/lib/mongodb/
+      - ${PWD}/volumes/backend/logs/:/var/log/supervisor/
+  frontend:
+    depends_on:
+      - backend
+    image: registry.dsv.bndes.net/bndes/token-frontend:v0.4
+    build:
+      context: ./frontend/
+    ports: 
+      - 90:8000
+#  database:
+#    image: mongo:3.6
+#    volumes:
+#      - ${PWD}/volumes/database/data/:/var/lib/mongodb/

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd /Users/vanessaalm/mongodb
+
+./bin/mongod --dbpath data
+

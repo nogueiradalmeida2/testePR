@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cd /Users/vanessaalm/coin-app/Front
+
+npm start
+

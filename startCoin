@@ -1,0 +1,7 @@
+ttab -w exec /Users/vanessaalm/coin-app/startCoinFront
+
+ttab -w exec /Users/vanessaalm/coin-app/startCoinMongo
+
+ttab -w exec /Users/vanessaalm/coin-app/startCoinNode
+
+ttab -w exec /Users/vanessaalm/coin-app/startCoinTruffle

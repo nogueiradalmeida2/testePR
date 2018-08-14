@@ -1,0 +1,20 @@
+PREPARANDO O git:
+
+git checkout 0ecdba7a2d0f605c6e5193cd83985b949ab13683
+cp /Users/lucianabastos/git/coin-app2/coin-app/Back/config_PRD.json Back/config.json
+cp /Users/lucianabastos/git/coin-app2/coin-app/Front/package_PRD.json Front/package.json
+cp /Users/lucianabastos/git/coin-app2/coin-app/BD/PJ_PRD.json BD/PJ.json
+/app/Back-Blockchain/truffle migrate --reset
+
+
+COMANDOS APOS O DOCKER-COMPOSE UP:
+
+
+# mkdir /app/Front/node_modules/bndes-ux4 && cp -r /app/bndes-ux4/dist/* /app/Front/node_modules/bndes-ux4
+# ps -ef | grep "sh -c ng serve --preserve-symlinks --host 0.0.0.0 --port 8000"
+# ps -ef | grep "ng"
+# kill -9 pid1 pid2 
+// # cd /app/BD
+// mkdir -p /data/db
+//chmod 777 /var/lib/mongodb
+// # ./carregaPJ.sh 

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+[[ -x /usr/local/sbin/init-once ]] && /usr/local/sbin/init-once
+
+/usr/bin/supervisord -c /etc/supervisor/supervisord.conf

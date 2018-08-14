@@ -1,0 +1,7 @@
+comandos instalação server:
+
+npm install
+npm install express
+npm install mongoose
+npm install method-override
+npm install cors

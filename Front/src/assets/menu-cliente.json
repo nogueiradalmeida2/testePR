@@ -1,0 +1,40 @@
+[
+	{
+		"titulo": "Home",
+    	"url": "/cliente/home",
+    	"topo": true
+	},
+	{
+		"titulo": "Cliente",
+    	"url":"",
+    	"topo": true,
+			"subitem": [
+				{
+					"titulo": "Associar Conta",
+					"url": "/cliente/associa-conta-cliente",
+					"separador": false
+				},
+				{
+					"titulo": "Transferir",
+					"url": "/cliente/transf",
+					"separador": false
+				},
+				{
+					"titulo": "Registrar Acompanhamento",
+					"url": "/cliente/registro-acompanhamento",
+					"separador": false
+				},
+				{
+					"titulo": "Trocar conta",
+					"url": "/cliente/recupera-acesso-cliente",
+					"separador": false
+				},
+				{
+					"titulo": "Saldo das Contas",
+					"url": "/cliente/registro-saldo-contas",
+					"separador": false
+					
+				}
+			]
+	}
+]

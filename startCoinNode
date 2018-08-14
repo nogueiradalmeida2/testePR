@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /Users/vanessaalm/coin-app/Back
+
+node server.js
