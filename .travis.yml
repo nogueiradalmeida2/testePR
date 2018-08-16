@@ -4,7 +4,7 @@ node_js:
   - '8.9.4'
 
 before_install:
-  - echo 'before_install'
+  - echo 'antes de instalar'
 
 install:
  - npm install mocha -g
@@ -15,6 +15,5 @@ cache:
     - node_modules
 
 script:
-  - yarn test #caso você tenha algum teste para ser rodado
-  - bash ./teste.sh
-  - bash ./deploy.sh
+  - bash ./travis_teste.sh
+  - bash ./travis_deploy.sh
