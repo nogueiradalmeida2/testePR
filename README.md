@@ -1,5 +1,5 @@
-# coin-app
-Aplicação BNDESCoin
+# coin-app TESTE
+Aplicação BNDESToken
 
 Instalação e uso do BNDES Coin
 
