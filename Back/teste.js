@@ -1,6 +1,7 @@
 'use strict'
 
-var expect = require('chai').expect;
+const assert = require('assert');
+//var expect = require('chai').expect;
 //var addTwoNumbers = require('../addTwoNumbers');
 
 describe('Teste do Backend NodeJS', function () {
@@ -15,7 +16,8 @@ describe('Teste do Backend NodeJS', function () {
     //var sum2 = addTwoNumbers(x, y);
 
     // 3. ASSERT
-    expect(6).to.be.equal(sum1);
+    //expect(6).to.be.equal(sum1);
+    assert.strictEqual(6, sum1);
 
   });
 
@@ -30,7 +32,8 @@ describe('Teste do Backend NodeJS', function () {
     //var sum2 = addTwoNumbers(x, y);
 
     // 3. ASSERT
-    expect(6).to.be.equal(sum1);
+    //expect(6).to.be.equal(sum1);
+    assert.strictEqual(6, sum1);
 
   });
 
