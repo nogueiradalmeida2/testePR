@@ -33,7 +33,7 @@ describe('Teste do Backend NodeJS', function () {
 
     // 3. ASSERT
     //expect(6).to.be.equal(sum1);
-    assert.strictEqual(6, sum1);
+    assert.strictEqual(6, sum1); //vai dar erro!!! forcei mesmo!
 
   });
 
