@@ -1,4 +1,4 @@
-# coin-app
+# coin-app :)
 Aplicação BNDESCoin
 
 Instalação e uso do BNDES Coin
