@@ -2,15 +2,9 @@ language: node_js
 
 node_js:
   - '8.9.4'
-  
-install:
- — npm install phantomjs -g
- — npm install -g mocha-phantomjs
- — npm install
- — bower install
-before_script:
- — phantomjs —version
- — mocha-phantomjs —version
+
+before_install:
+  - echo 'oi'
 
 cache:
   yarn: true
