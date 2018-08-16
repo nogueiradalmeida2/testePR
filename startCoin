@@ -1,3 +1,5 @@
+echo lala
+
 ttab -w exec /Users/vanessaalm/coin-app/startCoinFront
 
 ttab -w exec /Users/vanessaalm/coin-app/startCoinMongo
